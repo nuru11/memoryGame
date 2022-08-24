@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    background-color: #ddd;
+}
+
+.parent {
+    border:2px solid black;
+    border-radius: 5px;
+    width: 500px;
+    height: 300px;
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: red;
+    
+    
+}
+
+.pparent{
+/* margin:300px 300px; */
+ position:relative;
+ left: 500px;
+ top: 30px
+}
+
+.parent div {
+    border: 2px solid black;
+    width: 100px;
+    height: 70px;
+    background-color: black;
+    color:white;
+    border: transparent;
+    margin-top:20px;
+    border-radius: 5px;
+   /* text-align: center;*/
+    font-weight:bolder ;
+
+}
+span {
+    position:absolute;
+    color:white;
+    width: 100px;
+    height: 70px;
+    transform: rotateY(90deg);
+    border-radius: 5px;
+    
+    
+    
+}
+
+.one,.two,.three,.four,.onen,.twon,.threen,.fourn{
+ pointer-events:none;   
+}
+
+.start {
+    width:200px;
+    border-radius: 5px;
+    background-color: red;
+    margin-top: 3px;
+    font-size: xx-large;
+}
+
+.restart {
+    width:200px;
+    border-radius: 5px;
+    background-color: red;
+    margin-top: 3px;
+    font-size: xx-large;
+}
+
+.span1,.span11{
+    background-color: blueviolet;
+}
+
+.span2,.span22{
+    background-color: greenyellow;
+}
+
+.span3,.span33{
+    background-color: burlywood;
+}
+
+.span4,.span44{
+    background-color: aqua;
+}
+
+.text {
+    position:relative;
+    left: 650px;
+    top:50px;
+}
